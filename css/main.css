@@ -1,0 +1,18 @@
+/* Main Nav Styles */
+
+li {
+  list-style: none;
+  text-transform: uppercase;
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.buy-now {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 7px;
+}
