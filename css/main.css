@@ -1,8 +1,21 @@
-body, h1, h2, h3, h4, h5, h6,
-p, ul {
+body, h1, h2, h3, h4, h5, h6, p, ul {
 	margin: 0;
 	padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
 	font-family: 'Open Sans', arial, sans-serif;
+	color: #ffffff;
+}
+
+body {
+	height: 100vh;
+}
+
+.clearfix {
+	content: ""
+	display: table;
+	clear: both;
 }
 
 /* ============ Main Nav Styles ============ */
@@ -19,10 +32,17 @@ h1 {
 	color: white;
 	margin-bottom: 0px;
 	padding-top: 80px;
+	font-size: 21px;
+	font-weight: 700;
 }
 
 p {
 	color: white;
+	font-size: 18px;
+}
+
+p span {
+	font-weight: 700;
 }
 
 .logo {
@@ -43,7 +63,7 @@ nav{
 nav ul {
 	list-style: none;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 li {
@@ -75,8 +95,6 @@ a:hover{
 .splash{
 	text-align: center;
 	background-color: #f7bd6e;
-	height: 800px;
-	width: auto;
 }
 
 .splash h1 {
