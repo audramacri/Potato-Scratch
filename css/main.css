@@ -1,36 +1,12 @@
-<<<<<<< HEAD
-body, h1, h2, h3, h4, h5, h6, p, ul {
-=======
 /* Global Styles */
 
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
->>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 	margin: 0;
 	padding: 0;
 }
 
-<<<<<<< HEAD
-h1, h2, h3, h4, h5, p {
-	font-family: 'Open Sans', arial, sans-serif;
-	color: #ffffff;
-}
-
-body {
-	height: 100vh;
-}
-
-.clearfix {
-	content: ""
-	display: table;
-	clear: both;
-}
-
-/* ============ Main Nav Styles ============ */
-header {
-	padding-top: 20px;
-=======
 h1, h2, h3, h4, h5, h6,
 p, li {
 	color: #fff;
@@ -42,46 +18,19 @@ p, li {
 
 header {
 	margin-top: 30px;
->>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 	width: 100%;
 	height: 50px;
 	background-color: transparent;
 	margin-bottom: 20px;
 	position: fixed;
-<<<<<<< HEAD
 }
 
-h1 {
-	color: white;
-	margin-bottom: 0px;
-	padding-top: 80px;
-	font-size: 21px;
-	font-weight: 700;
-}
-
-p {
-	color: white;
-	font-size: 18px;
-}
-
-p span {
-	font-weight: 700;
-}
-
-=======
-}
-
->>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 .logo {
 	display: inline;
 	float: left;
   font-weight: 100;
 	margin-left: 15%;
 	text-align: right;
-<<<<<<< HEAD
-	padding-top:0px;
-=======
->>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 }
 
 nav {
@@ -93,7 +42,6 @@ nav {
 nav ul {
 	list-style: none;
 	text-transform: uppercase;
-	font-size: 13px;
 }
 
 li {
@@ -120,17 +68,6 @@ a:hover{
   border-color: white;
 }
 
-<<<<<<< HEAD
-/* ============ splash ============ */
-
-.splash{
-	text-align: center;
-	background-color: #f7bd6e;
-}
-
-.splash h1 {
-	padding-top: 100px;
-=======
 /* Splash Section Styles */
 
 .splash {
@@ -143,5 +80,4 @@ a:hover{
 .splash h1 {
   font-size: 3em;
 	padding-top: 200px;
->>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 }
