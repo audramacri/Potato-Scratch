@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 body, h1, h2, h3, h4, h5, h6, p, ul {
+=======
+/* Global Styles */
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+>>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 	margin: 0;
 	padding: 0;
 }
 
+<<<<<<< HEAD
 h1, h2, h3, h4, h5, p {
 	font-family: 'Open Sans', arial, sans-serif;
 	color: #ffffff;
@@ -21,11 +30,25 @@ body {
 /* ============ Main Nav Styles ============ */
 header {
 	padding-top: 20px;
+=======
+h1, h2, h3, h4, h5, h6,
+p, li {
+	color: #fff;
+  font-family: sans-serif;
+}
+
+
+/* Main Nav Styles */
+
+header {
+	margin-top: 30px;
+>>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 	width: 100%;
 	height: 50px;
 	background-color: transparent;
 	margin-bottom: 20px;
 	position: fixed;
+<<<<<<< HEAD
 }
 
 h1 {
@@ -45,19 +68,26 @@ p span {
 	font-weight: 700;
 }
 
+=======
+}
+
+>>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 .logo {
 	display: inline;
 	float: left;
-	font-weight: 700;
-	color: white;
-	padding-left: 200px;
+  font-weight: 100;
+	margin-left: 15%;
 	text-align: right;
+<<<<<<< HEAD
 	padding-top:0px;
+=======
+>>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 }
 
-nav{
+nav {
 	float: right;
-	width: 550px;
+	width: auto;
+  margin-right: 10%;
 }
 
 nav ul {
@@ -73,7 +103,7 @@ li {
 
 li a {
 	color: white;
-	}
+}
 
 a {
   text-decoration: none;
@@ -90,6 +120,7 @@ a:hover{
   border-color: white;
 }
 
+<<<<<<< HEAD
 /* ============ splash ============ */
 
 .splash{
@@ -99,4 +130,18 @@ a:hover{
 
 .splash h1 {
 	padding-top: 100px;
+=======
+/* Splash Section Styles */
+
+.splash {
+	text-align: center;
+	background-color: #ccb081;
+	height: 100vh;
+	width: auto;
+}
+
+.splash h1 {
+  font-size: 3em;
+	padding-top: 200px;
+>>>>>>> 2a0bbd0691a33e851b331b0158336c9ae026ffe2
 }
