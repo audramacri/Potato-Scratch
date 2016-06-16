@@ -81,3 +81,71 @@ a:hover{
   font-size: 3em;
 	padding-top: 200px;
 }
+
+/* Transparent Background Section Styles */
+
+.transparent {
+	text-align: center;
+	background-color: #ffffff;
+	height: 100vh;
+	width: auto;
+}
+
+.transparent h1 {
+    font-size: 3em;
+	padding-top: 200px;
+	color: #333333;
+}
+
+.transparent p {
+	color: #333333;
+}
+
+
+/*Nutrition Section Styles*/
+.nutrition {
+	background-color: #7ea36f;
+	height: 100vh;
+	width: auto;
+	text-align: center;
+}
+
+.nutrition h1 {
+  font-size: 3em;
+	padding-top: 200px;
+}
+
+/* Tranform Section Styles*/
+.transform {
+	background-color: #efdeb3;
+	height: 100vh;
+	width: auto;
+	text-align: center;
+}
+
+.transform h1 {
+    font-size: 3em;
+	padding-top: 200px;
+	color: #333333;
+}
+
+.transform p {
+	color: #333333;
+}
+
+
+
+/* Buy Section Styles */
+
+.buy {
+	text-align: center;
+	background-color: #efefef;
+	height: 100vh;
+	width: auto;
+}
+
+.buy h1 {
+    font-size: 3em;
+	padding-top: 200px;
+	color: #333333;
+}
