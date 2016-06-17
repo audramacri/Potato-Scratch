@@ -10,9 +10,8 @@ dl, dd, ol, ul, figure {
 h1, h2, h3, h4, h5, h6,
 p, li {
 	color: #fff;
-  font-family: sans-serif;
+	font-family: sans-serif;
 }
-
 
 /* Main Nav Styles */
 
@@ -28,7 +27,7 @@ header {
 .logo {
 	display: inline;
 	float: left;
-  font-weight: 100;
+	font-weight: 100;
 	margin-left: 15%;
 	text-align: right;
 }
@@ -36,7 +35,7 @@ header {
 nav {
 	float: right;
 	width: auto;
-  margin-right: 10%;
+	margin-right: 10%;
 }
 
 nav ul {
@@ -44,7 +43,7 @@ nav ul {
 	text-transform: uppercase;
 }
 
-li {
+nav ul li {
   display: inline;
   margin-right: 20px;
 }
@@ -94,11 +93,11 @@ a:hover{
 .transparent h1 {
     font-size: 3em;
 	padding-top: 200px;
-	color: #333333;
+	color: #898989;
 }
 
 .transparent p {
-	color: #333333;
+	color: #898989;
 }
 
 
@@ -126,11 +125,11 @@ a:hover{
 .transform h1 {
     font-size: 3em;
 	padding-top: 200px;
-	color: #333333;
+	color: #898989;
 }
 
 .transform p {
-	color: #333333;
+	color: #898989;
 }
 
 
@@ -147,5 +146,39 @@ a:hover{
 .buy h1 {
     font-size: 3em;
 	padding-top: 200px;
-	color: #333333;
+	color: #898989;
+}
+
+.buy h2 {
+    font-size: 2em;
+	color: #898989;
+}
+
+.buy div {
+	width: 60%;
+	margin: 0 auto;
+}
+			
+.buy div div  {
+	width: 30%;
+	float: left;
+	text-align: left;
+	margin-left:20px;
+}
+			
+div:nth-child(n+0){
+	border-right: 1px solid #898989;
+	
+}
+			
+div:last-child{
+	border-right:none;
+}
+
+.buy div div ul{
+	padding-left: 40px;
+}
+				
+.buy div div ul li  {
+	color: #898989;
 }
