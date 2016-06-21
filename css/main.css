@@ -8,7 +8,7 @@ dl, dd, ol, ul, figure {
 }
 
 h1, h2, h3, h4, h5, h6,
-p, li {
+p, li{
 	color: #fff;
 	font-family: sans-serif;
 }
@@ -79,6 +79,15 @@ a:hover{
 .splash h1 {
   font-size: 3em;
 	padding-top: 200px;
+	font-weight: normal;
+}
+
+.splash p {
+	font-weight: normal;
+}
+
+.splash p span {
+	font-weight: 700;
 }
 
 /* Transparent Background Section Styles */
@@ -92,12 +101,18 @@ a:hover{
 
 .transparent h1 {
     font-size: 3em;
-	padding-top: 200px;
+	padding-top: 75px;
+	font-weight: normal;
 	color: #898989;
+	
 }
 
 .transparent p {
 	color: #898989;
+}
+
+.transparent p span {
+	font-weight: 700;
 }
 
 
@@ -111,7 +126,12 @@ a:hover{
 
 .nutrition h1 {
   font-size: 3em;
-	padding-top: 200px;
+  padding-top: 75px;
+	font-weight: normal;
+}
+
+.nutrition p{
+	font-weight: normal;
 }
 
 /* Tranform Section Styles*/
@@ -124,12 +144,18 @@ a:hover{
 
 .transform h1 {
     font-size: 3em;
-	padding-top: 200px;
-	color: #898989;
+	padding-top: 75px;
+	font-weight: normal;
+	color: #8f6e2b;
 }
 
 .transform p {
-	color: #898989;
+	color: #8f6e2b;
+	font-weight: normal;
+}
+
+.transform p span{
+	font-weight: 700;
 }
 
 
@@ -145,13 +171,20 @@ a:hover{
 
 .buy h1 {
     font-size: 3em;
-	padding-top: 200px;
+	padding-top: 75px;
+	font-weight: normal;
 	color: #898989;
 }
 
 .buy h2 {
-    font-size: 2em;
+    font-size: 1.65em;
 	color: #898989;
+	font-weight: normal;
+	padding-bottom: 30px;
+}
+
+.buy h2 span{
+	font-weight: 700;
 }
 
 .buy div {
@@ -164,6 +197,7 @@ a:hover{
 	float: left;
 	text-align: left;
 	margin-left:20px;
+	margin-top: 100px;
 }
 			
 div:nth-child(n+0){
@@ -176,9 +210,35 @@ div:last-child{
 }
 
 .buy div div ul{
-	padding-left: 40px;
+	padding-left: 15px;
+	height: 95px;
 }
 				
 .buy div div ul li  {
 	color: #898989;
+	padding-bottom: 20px;
+}
+
+.buy div div .button{
+	 border: 1px solid #5dc14d;
+  border-radius: 20px;
+  padding: 7px;
+  border-color: #5dc14d;
+  color: #5dc14d;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px 25px 8px 25px;
+
+}
+
+.buy div div p{
+	color: #898989;
+	font-size: 14px;
+	padding-top: 10px;
+	float: left;
+	align-content: center;
+}
+
+.footer {
+	background-color: #ffffff;
 }
