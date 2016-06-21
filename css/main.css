@@ -211,6 +211,7 @@ div:last-child{
 
 .buy div div ul{
 	padding-left: 15px;
+	height: 95px;
 }
 				
 .buy div div ul li  {
@@ -228,6 +229,14 @@ div:last-child{
   text-transform: uppercase;
   padding: 8px 25px 8px 25px;
 
+}
+
+.buy div div p{
+	color: #898989;
+	font-size: 14px;
+	padding-top: 10px;
+	float: left;
+	align-content: center;
 }
 
 .footer {
