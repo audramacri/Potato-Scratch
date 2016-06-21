@@ -79,6 +79,15 @@ a:hover{
 .splash h1 {
   font-size: 3em;
 	padding-top: 200px;
+	font-weight: normal;
+}
+
+.splash p {
+	font-weight: normal;
+}
+
+.splash p span {
+	font-weight: 700;
 }
 
 /* Transparent Background Section Styles */
@@ -92,12 +101,18 @@ a:hover{
 
 .transparent h1 {
     font-size: 3em;
-	padding-top: 200px;
+	padding-top: 75px;
+	font-weight: normal;
 	color: #898989;
+	
 }
 
 .transparent p {
 	color: #898989;
+}
+
+.transparent p span {
+	font-weight: 700;
 }
 
 
@@ -111,7 +126,12 @@ a:hover{
 
 .nutrition h1 {
   font-size: 3em;
-	padding-top: 200px;
+  padding-top: 75px;
+	font-weight: normal;
+}
+
+.nutrition p{
+	font-weight: normal;
 }
 
 /* Tranform Section Styles*/
@@ -124,12 +144,18 @@ a:hover{
 
 .transform h1 {
     font-size: 3em;
-	padding-top: 200px;
-	color: #898989;
+	padding-top: 75px;
+	font-weight: normal;
+	color: #8f6e2b;
 }
 
 .transform p {
-	color: #898989;
+	color: #8f6e2b;
+	font-weight: normal;
+}
+
+.transform p span{
+	font-weight: 700;
 }
 
 
@@ -145,13 +171,19 @@ a:hover{
 
 .buy h1 {
     font-size: 3em;
-	padding-top: 200px;
+	padding-top: 75px;
+	font-weight: normal;
 	color: #898989;
 }
 
 .buy h2 {
-    font-size: 2em;
+    font-size: 1.75em;
 	color: #898989;
+	font-weight: normal;
+}
+
+.buy h2 span{
+	font-weight: 700;
 }
 
 .buy div {
