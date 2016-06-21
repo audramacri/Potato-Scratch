@@ -8,7 +8,7 @@ dl, dd, ol, ul, figure {
 }
 
 h1, h2, h3, h4, h5, h6,
-p, li {
+p, li{
 	color: #fff;
 	font-family: sans-serif;
 }
@@ -177,9 +177,10 @@ a:hover{
 }
 
 .buy h2 {
-    font-size: 1.75em;
+    font-size: 1.65em;
 	color: #898989;
 	font-weight: normal;
+	padding-bottom: 30px;
 }
 
 .buy h2 span{
@@ -196,6 +197,7 @@ a:hover{
 	float: left;
 	text-align: left;
 	margin-left:20px;
+	margin-top: 100px;
 }
 			
 div:nth-child(n+0){
@@ -208,9 +210,26 @@ div:last-child{
 }
 
 .buy div div ul{
-	padding-left: 40px;
+	padding-left: 15px;
 }
 				
 .buy div div ul li  {
 	color: #898989;
+	padding-bottom: 20px;
+}
+
+.buy div div .button{
+	 border: 1px solid #5dc14d;
+  border-radius: 20px;
+  padding: 7px;
+  border-color: #5dc14d;
+  color: #5dc14d;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px 25px 8px 25px;
+
+}
+
+.footer {
+	background-color: #ffffff;
 }
