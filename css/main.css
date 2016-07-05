@@ -71,9 +71,16 @@ a:hover{
 
 .splash {
 	text-align: center;
-	background-color: #ccb081;
+	
 	height: 100vh;
 	width: auto;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a18872+0,c8af99+100 */
+background: #a18872; /* Old browsers */
+background: -moz-linear-gradient(top,  #a18872 0%, #c8af99 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a18872 0%,#c8af99 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a18872 0%,#c8af99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a18872', endColorstr='#c8af99',GradientType=0 ); /* IE6-9 */
+
 }
 
 .splash h1 {
@@ -94,15 +101,22 @@ a:hover{
 
 .transparent {
 	text-align: center;
-	background-color: #ffffff;
+	
 	height: 100vh;
 	width: auto;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9e9+0,f6f6f6+100 */
+background: #e9e9e9; /* Old browsers */
+background: -moz-linear-gradient(top,  #e9e9e9 0%, #f6f6f6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e9e9e9 0%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e9e9e9 0%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+
 }
 
 .transparent h1 {
     font-size: 3em;
 	padding-top: 75px;
-	font-weight: normal;
+	font-weight: 100;
 	color: #898989;
 	
 }
@@ -118,16 +132,23 @@ a:hover{
 
 /*Nutrition Section Styles*/
 .nutrition {
-	background-color: #7ea36f;
+	
 	height: 100vh;
 	width: auto;
 	text-align: center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6c8e5c+0,77a066+100 */
+background: #6c8e5c; /* Old browsers */
+background: -moz-linear-gradient(top,  #6c8e5c 0%, #77a066 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #6c8e5c 0%,#77a066 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #6c8e5c 0%,#77a066 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c8e5c', endColorstr='#77a066',GradientType=0 ); /* IE6-9 */
+
 }
 
 .nutrition h1 {
   font-size: 3em;
   padding-top: 75px;
-	font-weight: normal;
+	font-weight: 100;
 }
 
 .nutrition p{
@@ -136,16 +157,23 @@ a:hover{
 
 /* Tranform Section Styles*/
 .transform {
-	background-color: #efdeb3;
+	
 	height: 100vh;
 	width: auto;
 	text-align: center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebdaaf+0,e9d29e+100 */
+background: #ebdaaf; /* Old browsers */
+background: -moz-linear-gradient(top,  #ebdaaf 0%, #e9d29e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ebdaaf 0%,#e9d29e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ebdaaf 0%,#e9d29e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebdaaf', endColorstr='#e9d29e',GradientType=0 ); /* IE6-9 */
+
 }
 
 .transform h1 {
     font-size: 3em;
 	padding-top: 75px;
-	font-weight: normal;
+	font-weight: 100;
 	color: #8f6e2b;
 }
 
@@ -164,15 +192,22 @@ a:hover{
 
 .buy {
 	text-align: center;
-	background-color: #efefef;
+	
 	height: 100vh;
 	width: auto;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ececec+0,f5f5f5+100 */
+background: #ececec; /* Old browsers */
+background: -moz-linear-gradient(top,  #ececec 0%, #f5f5f5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ececec 0%,#f5f5f5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ececec 0%,#f5f5f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+
 }
 
 .buy h1 {
     font-size: 3em;
 	padding-top: 75px;
-	font-weight: normal;
+	font-weight: 100;
 	color: #898989;
 }
 
@@ -200,12 +235,12 @@ a:hover{
 	margin-top: 100px;
 }
 			
-div:nth-child(n+0){
+div{
 	border-right: 1px solid #898989;
 	
 }
 			
-div:last-child{
+div:last-of-type{
 	border-right:none;
 }
 
