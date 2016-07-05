@@ -97,6 +97,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a18872', end
 	font-weight: 700;
 }
 
+.splash img {
+	width: 50%;
+	height: auto;
+}
+
 /* Transparent Background Section Styles */
 
 .transparent {
@@ -129,6 +134,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', end
 	font-weight: 700;
 }
 
+.transparent img {
+	width: 50%;
+	height: auto;
+}
+
 
 /*Nutrition Section Styles*/
 .nutrition {
@@ -154,6 +164,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c8e5c', end
 .nutrition p{
 	font-weight: normal;
 }
+
+.nutrition img {
+	width: 30%;
+	
+}
+
+/* Customer Service Background Section Styles */
+
+.customer {
+	text-align: center;
+	
+	height: 100vh;
+	width: auto;
+background-image: url("assets/images/potatoconbg.png");
+
+}
+
+.customer h1 {
+    font-size: 3em;
+	padding-top: 75px;
+	font-weight: 100;
+	color: #898989;
+	
+}
+
+.customer p {
+	color: #898989;
+}
+
+.customer p span {
+	font-weight: 700;
+}
+
+
 
 /* Tranform Section Styles*/
 .transform {
@@ -272,6 +316,11 @@ div:last-of-type{
 	padding-top: 10px;
 	float: left;
 	align-content: center;
+}
+
+.buy div div img {
+	width: 90%;
+	margin-top: 20px;
 }
 
 .footer {
