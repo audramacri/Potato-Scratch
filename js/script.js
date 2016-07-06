@@ -1,0 +1,1 @@
+var about = document.querySelector("[href='#about']");
