@@ -159,6 +159,7 @@ background: -webkit-linear-gradient(top,  #6c8e5c 0%,#77a066 100%); /* Chrome10-
 background: linear-gradient(to bottom,  #6c8e5c 0%,#77a066 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c8e5c', endColorstr='#77a066',GradientType=0 ); /* IE6-9 */
 
+
 }
 
 .nutrition h1 {
@@ -171,9 +172,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c8e5c', end
 	font-weight: normal;
 }
 
-.nutrition img {
+.nutrition .nutrition-potato {
 	width: 30%;
+	margin-top: 1.5em;
 
+}
+
+.nutrition .background-image{
+	
+	width: 100%;
 }
 
 /* Customer Service Background Section Styles */
@@ -234,6 +241,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebdaaf', end
 
 .transform p span{
 	font-weight: 700;
+}
+
+.transform .mashed-potato{
+	float: left; 
+	width: 25%;
+	
+}
+
+.transform .fried-potato{
+	float: right; 
+	width: 25%;
 }
 
 
