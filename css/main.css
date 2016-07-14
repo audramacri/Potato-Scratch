@@ -96,6 +96,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a18872', end
 
 .splash p {
 	font-weight: normal;
+	padding-top: 1.5em;
 }
 
 .splash p span {
@@ -121,6 +122,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a18872', end
 /* background: -webkit-linear-gradient(top,  #e9e9e9 0%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
 /* background: linear-gradient(to bottom,  #e9e9e9 0%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+
 }
 
 .transparent h1 {
@@ -133,6 +135,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', end
 
 .transparent p {
 	color: #898989;
+	padding-top: 1.5em;
 }
 
 .transparent p span {
@@ -170,11 +173,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', end
 
 .nutrition p{
 	font-weight: normal;
+	padding-top: 1.5em;
 }
 
 .nutrition .nutrition-potato {
-	width: 30%;
-	margin-top: 1.5em;
+	width: 35%;
+	padding-top: 10%;
 
 }
 
@@ -205,6 +209,7 @@ background-size: 100%;
 
 .customer p {
 	color: #898989;
+	padding-top: 1.5em;
 }
 
 .customer p span {
@@ -236,6 +241,7 @@ background: url('../assets/images/mashed.png') no-repeat left bottom, url('../as
 .transform p {
 	color: #8f6e2b;
 	font-weight: normal;
+	padding-top: 1.5em;
 }
 
 .transform p span{
@@ -344,6 +350,15 @@ div:last-of-type{
 .buy div div img {
 	width: 90%;
 	margin-top: 20px;
+}
+
+
+.buy .potato-pro{
+	padding-top: 15%;
+}
+
+.buy .potato-team{
+	padding-top: 5%;
 }
 
 .footer {
