@@ -365,6 +365,31 @@ div:last-of-type{
 	padding-top: 5%;
 }
 
-.footer {
-	background-color: #ffffff;
+
+/* Footer Section Styles */
+
+footer {
+	background-color: #fff;
+	width: 100%;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	margin: 2em 0;
+}
+
+footer p, footer li a {
+	color: #898989;
+	font-weight: lighter;
+	font-size: .7em;
+	line-height: 1.75em;
+}
+
+.footer-nav {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.footer-nav li {
+	display: inline;
+	margin-right: 10px;
 }
