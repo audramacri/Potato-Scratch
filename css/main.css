@@ -9,12 +9,12 @@ dl, dd, ol, ul, figure {
 }
 
 h1, h2, h3, h4, h5, h6,
-p, li{
+p, li, a {
 	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-body{
+body {
 	scroll-behavior: smooth;
 }
 
@@ -291,7 +291,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', end
 .buy h2 {
     font-size: 1.65em;
 	color: #898989;
-	font-weight: normal;
+	font-weight: lighter;
 	padding-bottom: 30px;
 }
 
@@ -300,7 +300,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', end
 }
 
 .buy div {
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -313,7 +313,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', end
 }
 
 div{
-	border-right: 1px solid #898989;
+	border-right: 1px solid #a9a9a9;
 
 }
 
@@ -328,27 +328,33 @@ div:last-of-type{
 
 .buy div div ul li  {
 	color: #898989;
-	padding-bottom: 20px;
+	padding-bottom: 0.5em;
+	font-weight: lighter;
 }
 
-.buy div div .button{
+.buy div div .button {
 	 border: 1px solid #5dc14d;
   border-radius: 20px;
   padding: 7px;
   border-color: #5dc14d;
-  color: #5dc14d;
   text-align: center;
   text-transform: uppercase;
-  padding: 8px 25px 8px 25px;
+  padding: 5px 15px;
+	margin-left: 3em;
 
 }
 
-.buy div div p{
+.buy a {
+	color: #5dc14d;
+	font-size: 0.8em
+}
+
+.buy small {
 	color: #898989;
-	font-size: 14px;
+	font-size: 0.77em;
 	padding-top: 10px;
 	float: left;
-	align-content: center;
+	margin-left: 4.65em;
 }
 
 .buy div div img {
@@ -357,11 +363,11 @@ div:last-of-type{
 }
 
 
-.buy .potato-pro{
+.buy .potato-pro {
 	padding-top: 15%;
 }
 
-.buy .potato-team{
+.buy .potato-team {
 	padding-top: 5%;
 }
 
