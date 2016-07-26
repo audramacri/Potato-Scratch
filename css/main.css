@@ -270,7 +270,7 @@ background: url('../assets/images/mashed.png') no-repeat left bottom, url('../as
 .buy {
 	text-align: center;
 
-	height: 100vh;
+	height: 110vh;
 	width: auto;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ececec+0,f5f5f5+100 */
 background: #ececec; /* Old browsers */
@@ -332,7 +332,7 @@ div:last-of-type{
 }
 
 .buy div div .button{
-	 border: 1px solid #5dc14d;
+  border: 1px solid #5dc14d;
   border-radius: 20px;
   padding: 7px;
   border-color: #5dc14d;
@@ -340,6 +340,12 @@ div:last-of-type{
   text-align: center;
   text-transform: uppercase;
   padding: 8px 25px 8px 25px;
+
+}
+
+.buy div div .button:hover{
+  background: #5dc14d;
+  color: #ffffff;
 
 }
 
