@@ -351,6 +351,9 @@ div:last-of-type{
 	color: #898989;
 	padding-bottom: 20px;
 }
+.buy div div .button{
+	padding-left: 14%;
+}
 
 .buy div div .button a{
 	 border: 1px solid #5dc14d;
