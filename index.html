@@ -133,6 +133,33 @@
         $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
       });
       </script>
+      
+      <script>
+	      /**
+ * This was built using the scrollie jQuery Plugin
+ * https://github.com/Funsella/jquery-scrollie
+ */
+
+
+$( window ).ready(function() {
+  
+    var wHeight = $(window).height();
+
+    $('.slide')
+      .height(wHeight)
+      .scrollie({
+        scrollOffset : -50,
+        scrollingInView : function(elem) {
+                   
+          var bgColor = elem.data('background');
+          
+          $('nav').css('background-color', bgColor);
+          
+        }
+      });
+
+  });
+      </script>
 
 
   </body>
