@@ -208,24 +208,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', end
 	font-weight: 100;
 }
 
-#testimonial-slides {
+.testimonial-slides {
 	display: flex;
 	margin: 15em auto;
 	text-align: center;
 }
 
-#testimonial-slides blockquote {
-	color: #909090;
-	font-size: 1.5em;
-	font-weight: 300;
+.testimonial-slides blockquote {
+	    color: #909090;
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 68%;
+    /* align-content: center; */
+    text-align: center;
+    /* align-items: center; */
+    margin: 0 auto;
 }
 
-#testimonial-slides blockquote:before {
-	background-image: url('../assets/images/focusleft.png');
+.testimonial-slides blockquote::before {
+
+	background-image: url("../assets/images/focusleft.png");
 }
 
-#testimonial-slides blockquote:after {
-	background-image: url('../assets/images/focusright.png');
+.testimonial-slides blockquote::after {
+	background-image: url("../assets/images/focusright.png");
 }
 
 
@@ -273,7 +279,6 @@ background: url('../assets/images/mashed.png') no-repeat left bottom, url('../as
 }
 
 
-
 /* Buy Section Styles */
 
 .buy {
@@ -300,7 +305,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', end
 .buy h2 {
     font-size: 1.65em;
 	color: #898989;
-	font-weight: lighter;
+	font-weight: normal;
 	padding-bottom: 30px;
 }
 
@@ -309,7 +314,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', end
 }
 
 .buy div {
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -322,7 +327,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', end
 }
 
 div{
-	border-right: 1px solid #a9a9a9;
+	border-right: 1px solid #898989;
 
 }
 
@@ -337,33 +342,36 @@ div:last-of-type{
 
 .buy div div ul li  {
 	color: #898989;
-	padding-bottom: 0.5em;
-	font-weight: lighter;
+	padding-bottom: 20px;
 }
 
-.buy div div .button {
+.buy div div .button a{
 	 border: 1px solid #5dc14d;
   border-radius: 20px;
   padding: 7px;
   border-color: #5dc14d;
+  color: #5dc14d;
   text-align: center;
   text-transform: uppercase;
-  padding: 5px 15px;
-	margin-left: 3em;
+  padding: 8px 25px 8px 25px;
 
 }
 
-.buy a {
-	color: #5dc14d;
-	font-size: 0.8em
+.buy div div .button a:hover{
+
+  background-color: #5dc14d;
+  color: #ffffff;
+  text-decoration: none;
+
+
 }
 
-.buy small {
+.buy div div p{
 	color: #898989;
-	font-size: 0.77em;
+	font-size: 14px;
 	padding-top: 10px;
 	float: left;
-	margin-left: 4.65em;
+	align-content: center;
 }
 
 .buy div div img {
@@ -372,14 +380,13 @@ div:last-of-type{
 }
 
 
-.buy .potato-pro {
+.buy .potato-pro{
 	padding-top: 15%;
 }
 
-.buy .potato-team {
+.buy .potato-team{
 	padding-top: 5%;
 }
-
 /* Footer Section Styles */
 
 footer {
